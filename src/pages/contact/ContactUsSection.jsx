@@ -48,7 +48,7 @@ const ContactUsSection = () => {
     sales: {
       title: t("contact.salesInquiries"),
       items: [
-        { label: t("contact.email"), value: "sales@studentrevelation.com", icon: Mail },
+        { label: t("contact.email"), value: "sales@remoteschoolsystem.com", icon: Mail },
         { label: t("contact.phone"), value: "--", icon: Phone },
         { label: t("contact.hours"), value: t("contact.hoursSales"), icon: Clock },
       ],
@@ -56,8 +56,8 @@ const ContactUsSection = () => {
     support: {
       title: t("contact.customerSupport"),
       items: [
-        { label: t("contact.email"), value: "support@studentrevelation.com", icon: Mail },
-        { label: t("contact.phone"), value: "1-800-SRS-HELP", icon: Phone },
+        { label: t("contact.email"), value: "support@remoteschoolsystem.com", icon: Mail },
+        { label: t("contact.phone"), value: "1-800-RSS-HELP", icon: Phone },
         { label: t("contact.hours"), value: t("contact.hoursSupport"), icon: Clock },
       ],
     },

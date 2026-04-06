@@ -9,10 +9,10 @@
     "contact": "Contact",
     "login": "Login",
     "requestDemo": "Request Demo",
-    "studentRevelation": "Student Revelation"
+    "studentRevelation": "Remote School"
   },
   "hero": {
-    "title": "Student Revelation",
+    "title": "Remote School",
     "titleLine2": "System",
     "subtitle": "One secure platform to manage academics, attendance, health, conduct, and communication across all schools.",
     "requestDemo": "Request a Demo",
@@ -71,7 +71,7 @@
   "testimonials": {
     "title": "What Our",
     "titleLine2": "Customers Says",
-    "subtitle": "Trusted by schools and districts nationwide to streamline operations and improve outcomes. See how our comprehensive Student Revelation System platform manages every aspect of student life with modern technology and innovative solutions.",
+    "subtitle": "Trusted by schools and districts nationwide to streamline operations and improve outcomes. See how our comprehensive Remote Mangement System platform manages every aspect of student life with modern technology and innovative solutions.",
     "viewMore": "View More"
   },
   "mobileApps": {
@@ -86,7 +86,7 @@
   },
   "faqHome": {
     "title": "Frequently Asking Questions",
-    "subtitle": "Find answers to common questions about Student Revelation System and how it can help manage your school district.",
+    "subtitle": "Find answers to common questions about Remote Mangement System and how it can help manage your school district.",
     "q1": "What user roles are available in the system?",
     "a1": "The system supports multiple user roles including administrators, teachers, students, parents, and staff members. Each role has specific permissions and access levels tailored to their needs.",
     "q2": "Can we ever have multiple roles?",
@@ -110,17 +110,17 @@
   },
   "cta": {
     "title": "Ready to Transform Your School?",
-    "subtitle": "Join thousands of schools already using Student Revelation System",
+    "subtitle": "Join thousands of schools already using Remote Mangement System",
     "requestDemo": "Request Demo",
     "startFreeTrial": "Start Free Trial",
     "contactSales": "Contact Sales"
   },
   "about": {
     "title": "About Us",
-    "intro": "Student Revelation System (SRS) helps K–12 schools manage students, health, behavior, and communication in one place—so educators can focus on what matters most.",
+    "intro": "Remote Mangement System (RMS) helps K–12 schools manage students, health, behavior, and communication in one place—so educators can focus on what matters most.",
     "ourStory": "Our Story",
-    "storyP1": "We built SRS because we saw schools juggling spreadsheets, paper forms, and disconnected tools. Teachers, nurses, and admins needed one system that could handle attendance, grades, health records, discipline, and parent communication—without the complexity of enterprise software.",
-    "storyP2": "Today, schools use SRS to keep student data secure, streamline daily operations, and give parents and teachers a clear view of each student's journey. We're committed to evolving with your needs and keeping the platform simple and reliable.",
+    "storyP1": "We built RMS because we saw schools juggling spreadsheets, paper forms, and disconnected tools. Teachers, nurses, and admins needed one system that could handle attendance, grades, health records, discipline, and parent communication—without the complexity of enterprise software.",
+    "storyP2": "Today, schools use RMS to keep student data secure, streamline daily operations, and give parents and teachers a clear view of each student's journey. We're committed to evolving with your needs and keeping the platform simple and reliable.",
     "mission": "Mission",
     "missionDesc": "To empower schools with tools that simplify administration and improve outcomes for every student.",
     "vision": "Vision",
@@ -135,11 +135,11 @@
     "integrity": "Integrity & Trust",
     "integrityDesc": "Schools trust us with sensitive data; we protect it and use it responsibly.",
     "trustedBySchools": "Trusted by Schools",
-    "trustedDesc": "Schools use SRS for attendance, grades, health records, nurse visits, behavior tracking, parent-teacher communication, and reporting—all in one secure platform.",
+    "trustedDesc": "Schools use RMS for attendance, grades, health records, nurse visits, behavior tracking, parent-teacher communication, and reporting—all in one secure platform.",
     "getInTouch": "Get in Touch"
   },
   "career": {
-    "title": "Careers at SRS",
+    "title": "Careers at RMS",
     "intro": "Join us in building the platform that helps K–12 schools manage students, health, and communication—so educators can focus on what matters most.",
     "whyJoin": "Why Join Us",
     "meaningfulWork": "Meaningful Work",
@@ -159,7 +159,7 @@
     "role2Title": "Product Designer",
     "role2Summary": "Own UX for admin, teacher, nurse, and parent portals. Make complex workflows simple.",
     "role3Title": "Customer Success Manager",
-    "role3Summary": "Onboard schools, train users, and ensure they get value from SRS.",
+    "role3Summary": "Onboard schools, train users, and ensure they get value from RMS.",
     "applyNow": "Apply now",
     "dontSeeFit": "Don't See a Fit? We'd Still Like to Hear From You",
     "dontSeeFitDesc": "We're always looking for talented people who care about education. Send your resume and a short note about what you're interested in.",
@@ -176,7 +176,7 @@
     "hours": "Hours",
     "hoursSales": "Mon-Fri, 8am-8pm EST",
     "hoursSupport": "24/7 for urgent issues\nMon-Fri, 8am-8pm EST",
-    "officeAddress": "Student Revelation System\n123 Education Way, Suite 400\nMiami, FL 02108\nUnited States",
+    "officeAddress": "Remote Mangement System\n123 Education Way, Suite 400\nMiami, FL 02108\nUnited States",
     "trustedBySchools": "Trusted by Schools Worldwide",
     "reviewedLiked": "Reviewed and Liked by 9.5/10 of report issuers",
     "watchOnline": "Watch online now →",
@@ -189,7 +189,7 @@
     "selectInquiryType": "Select inquiry type",
     "message": "Message *",
     "numberOfStudents": "Number of Students",
-    "agreePolicy": "I agree to the Privacy Policy and consent to being contacted by Student Revelation System.",
+    "agreePolicy": "I agree to the Privacy Policy and consent to being contacted by Remote Mangement System.",
     "sendMessageBtn": "Send Message",
     "otherWays": "Other Ways to Connect",
     "scheduleDemo": "Schedule a Demo",
@@ -230,12 +230,12 @@
     "studentPortal": "Student Portal Walkthrough",
     "studentPortalDesc": "Tour the student interface for grades, schedule and health management",
     "liveDemoTitle": "Ready for a Live Demo?",
-    "liveDemoSubtitle": "Schedule a personalized demo with our team to see how Student Revelation System can transform your school's operations",
+    "liveDemoSubtitle": "Schedule a personalized demo with our team to see how Remote Mangement System can transform your school's operations",
     "scheduleLiveDemo": "Schedule Live Demo"
   },
   "faqPage": {
     "title": "Frequently Asked Questions",
-    "subtitle": "Find answers to common questions about Student Revelation System",
+    "subtitle": "Find answers to common questions about Remote Mangement System",
     "searchPlaceholder": "Search questions...",
     "noResults": "No questions found matching your search.",
     "stillHaveQuestions": "Still have questions?",
@@ -299,7 +299,7 @@
   "freeTrial": {
     "noCreditCard": "No Credit Card Required",
     "title": "Start Your 1-Month Free Trial",
-    "subtitle": "Experience the full power of Student Revelation System with a 30-day free trial. No commitments, no hidden fees.",
+    "subtitle": "Experience the full power of Remote Mangement System with a 30-day free trial. No commitments, no hidden fees.",
     "whatsIncluded": "What's Included in Your Trial",
     "feature1": "Full access to all portals (Parent, Student, Teacher, Admin)",
     "feature2": "Up to 100 student records",
@@ -365,7 +365,7 @@
     "placeholderEmail": "Enter your email",
     "join": "Join",
     "tagline": "Empowering schools with comprehensive, secure, and compliant information management.",
-    "copyright": "© Copyright 2025, All Rights Reserved by Student Revelation System"
+    "copyright": "© Copyright 2025, All Rights Reserved by Remote Mangement System"
   },
   "language": {
     "en": "English",

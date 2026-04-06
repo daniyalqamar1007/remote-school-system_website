@@ -9,10 +9,10 @@
     "contact": "Contacto",
     "login": "Iniciar sesión",
     "requestDemo": "Solicitar Demo",
-    "studentRevelation": "Student Revelation"
+    "studentRevelation": "Remote School"
   },
   "hero": {
-    "title": "Student Revelation",
+    "title": "Remote School",
     "titleLine2": "System",
     "subtitle": "Una plataforma segura para gestionar académicos, asistencia, salud, conducta y comunicación en todas las escuelas.",
     "requestDemo": "Solicitar Demo",
@@ -71,7 +71,7 @@
   "testimonials": {
     "title": "Lo Que Dicen",
     "titleLine2": "Nuestros Clientes",
-    "subtitle": "Con la confianza de escuelas y distritos en todo el país para agilizar operaciones y mejorar resultados. Descubre cómo nuestra plataforma Student Revelation System gestiona cada aspecto de la vida estudiantil con tecnología moderna e innovadora.",
+    "subtitle": "Con la confianza de escuelas y distritos en todo el país para agilizar operaciones y mejorar resultados. Descubre cómo nuestra plataforma Remote School System gestiona cada aspecto de la vida estudiantil con tecnología moderna e innovadora.",
     "viewMore": "Ver más"
   },
   "mobileApps": {
@@ -86,7 +86,7 @@
   },
   "faqHome": {
     "title": "Preguntas Frecuentes",
-    "subtitle": "Encuentra respuestas a preguntas comunes sobre Student Revelation System y cómo puede ayudar a gestionar tu distrito escolar.",
+    "subtitle": "Encuentra respuestas a preguntas comunes sobre Remote School System y cómo puede ayudar a gestionar tu distrito escolar.",
     "q1": "¿Qué roles de usuario hay en el sistema?",
     "a1": "El sistema admite múltiples roles: administradores, maestros, estudiantes, padres y personal. Cada rol tiene permisos y niveles de acceso específicos.",
     "q2": "¿Se pueden tener varios roles?",
@@ -110,17 +110,17 @@
   },
   "cta": {
     "title": "¿Listo para Transformar Tu Escuela?",
-    "subtitle": "Únete a miles de escuelas que ya usan Student Revelation System",
+    "subtitle": "Únete a miles de escuelas que ya usan Remote School System",
     "requestDemo": "Solicitar Demo",
     "startFreeTrial": "Prueba Gratuita",
     "contactSales": "Contactar Ventas"
   },
   "about": {
     "title": "Nosotros",
-    "intro": "Student Revelation System (SRS) ayuda a las escuelas K–12 a gestionar estudiantes, salud, comportamiento y comunicación en un solo lugar, para que los educadores se enfoquen en lo que más importa.",
+    "intro": "Remote School System ayuda a las escuelas K–12 a gestionar estudiantes, salud, comportamiento y comunicación en un solo lugar, para que los educadores se enfoquen en lo que más importa.",
     "ourStory": "Nuestra Historia",
-    "storyP1": "Creamos SRS porque vimos a las escuelas lidiando con hojas de cálculo, formularios en papel y herramientas desconectadas. Maestros, enfermeras y administradores necesitaban un sistema que manejara asistencia, calificaciones, expedientes de salud, disciplina y comunicación con padres, sin la complejidad del software empresarial.",
-    "storyP2": "Hoy las escuelas usan SRS para mantener los datos seguros, simplificar operaciones diarias y dar a padres y maestros una visión clara del recorrido de cada estudiante. Nos comprometemos a evolucionar con tus necesidades y mantener la plataforma simple y confiable.",
+    "storyP1": "Creamos Remote School System porque vimos a las escuelas lidiando con hojas de cálculo, formularios en papel y herramientas desconectadas. Maestros, enfermeras y administradores necesitaban un sistema que manejara asistencia, calificaciones, expedientes de salud, disciplina y comunicación con padres, sin la complejidad del software empresarial.",
+    "storyP2": "Hoy las escuelas usan Remote School System para mantener los datos seguros, simplificar operaciones diarias y dar a padres y maestros una visión clara del recorrido de cada estudiante. Nos comprometemos a evolucionar con tus necesidades y mantener la plataforma simple y confiable.",
     "mission": "Misión",
     "missionDesc": "Empoderar a las escuelas con herramientas que simplifiquen la administración y mejoren los resultados de cada estudiante.",
     "vision": "Visión",
@@ -135,11 +135,11 @@
     "integrity": "Integridad y Confianza",
     "integrityDesc": "Las escuelas nos confían datos sensibles; los protegemos y usamos con responsabilidad.",
     "trustedBySchools": "Con la Confianza de las Escuelas",
-    "trustedDesc": "Las escuelas usan SRS para asistencia, calificaciones, expedientes de salud, visitas de enfermería, seguimiento de comportamiento, comunicación padres-maestros e informes, todo en una plataforma segura.",
+    "trustedDesc": "Las escuelas usan Remote School System para asistencia, calificaciones, expedientes de salud, visitas de enfermería, seguimiento de comportamiento, comunicación padres-maestros e informes, todo en una plataforma segura.",
     "getInTouch": "Contáctanos"
   },
   "career": {
-    "title": "Carreras en SRS",
+    "title": "Carreras en Remote School System",
     "intro": "Únete a nosotros para construir la plataforma que ayuda a las escuelas K–12 a gestionar estudiantes, salud y comunicación, para que los educadores se enfoquen en lo que más importa.",
     "whyJoin": "Por Qué Unirte",
     "meaningfulWork": "Trabajo con Sentido",
@@ -159,7 +159,7 @@
     "role2Title": "Diseñador de Producto",
     "role2Summary": "Lidera la UX de portales de admin, maestro, enfermería y padres. Simplifica flujos complejos.",
     "role3Title": "Gerente de Éxito del Cliente",
-    "role3Summary": "Incorporar escuelas, capacitar usuarios y asegurar que obtengan valor de SRS.",
+    "role3Summary": "Incorporar escuelas, capacitar usuarios y asegurar que obtengan valor de Remote School System.",
     "applyNow": "Aplicar ahora",
     "dontSeeFit": "¿No Encuentras un Ajuste? Nos Gustaría Saber de Ti",
     "dontSeeFitDesc": "Siempre buscamos talento que se preocupe por la educación. Envía tu currículum y una breve nota sobre tu interés.",
@@ -176,7 +176,7 @@
     "hours": "Horario",
     "hoursSales": "Lun-Vie, 8am-8pm EST",
     "hoursSupport": "24/7 para urgencias\nLun-Vie, 8am-8pm EST",
-    "officeAddress": "Student Revelation System\n123 Education Way, Suite 400\nMiami, FL 02108\nEstados Unidos",
+    "officeAddress": "Remote School System\n123 Education Way, Suite 400\nMiami, FL 02108\nEstados Unidos",
     "trustedBySchools": "Con la Confianza de Escuelas en Todo el Mundo",
     "reviewedLiked": "Calificado y recomendado por 9.5/10 de quienes emiten informes",
     "watchOnline": "Ver en línea →",
@@ -189,7 +189,7 @@
     "selectInquiryType": "Selecciona tipo de consulta",
     "message": "Mensaje *",
     "numberOfStudents": "Número de estudiantes",
-    "agreePolicy": "Acepto la Política de Privacidad y doy consentimiento para ser contactado por Student Revelation System.",
+    "agreePolicy": "Acepto la Política de Privacidad y doy consentimiento para ser contactado por Remote School System.",
     "sendMessageBtn": "Enviar mensaje",
     "otherWays": "Otras Formas de Conectar",
     "scheduleDemo": "Agendar Demo",
@@ -230,12 +230,12 @@
     "studentPortal": "Recorrido Portal del Estudiante",
     "studentPortalDesc": "Tour por la interfaz del estudiante: calificaciones, horario y salud",
     "liveDemoTitle": "¿Listo para una Demo en Vivo?",
-    "liveDemoSubtitle": "Agenda una demo personalizada con nuestro equipo para ver cómo Student Revelation System puede transformar las operaciones de tu escuela",
+    "liveDemoSubtitle": "Agenda una demo personalizada con nuestro equipo para ver cómo Remote School System puede transformar las operaciones de tu escuela",
     "scheduleLiveDemo": "Agendar Demo en Vivo"
   },
   "faqPage": {
     "title": "Preguntas Frecuentes",
-    "subtitle": "Encuentra respuestas sobre Student Revelation System",
+    "subtitle": "Encuentra respuestas sobre Remote School System",
     "searchPlaceholder": "Buscar preguntas...",
     "noResults": "No se encontraron preguntas para tu búsqueda.",
     "stillHaveQuestions": "¿Sigues con dudas?",
@@ -299,7 +299,7 @@
   "freeTrial": {
     "noCreditCard": "Sin Tarjeta de Crédito",
     "title": "Comienza tu Prueba Gratuita de 1 Mes",
-    "subtitle": "Prueba todo el poder de Student Revelation System con una prueba de 30 días. Sin compromisos ni cargos ocultos.",
+    "subtitle": "Prueba todo el poder de Remote School System con una prueba de 30 días. Sin compromisos ni cargos ocultos.",
     "whatsIncluded": "Qué Incluye tu Prueba",
     "feature1": "Acceso completo a todos los portales (Padres, Estudiante, Maestro, Admin)",
     "feature2": "Hasta 100 expedientes de estudiantes",
@@ -365,7 +365,7 @@
     "placeholderEmail": "Tu correo electrónico",
     "join": "Unirse",
     "tagline": "Empoderando a las escuelas con gestión de información integral, segura y conforme.",
-    "copyright": "© Copyright 2025, todos los derechos reservados por Student Revelation System"
+    "copyright": "© Copyright 2025, todos los derechos reservados por Remote School System"
   },
   "language": {
     "en": "English",
