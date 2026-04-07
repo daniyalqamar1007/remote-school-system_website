@@ -7,8 +7,8 @@ const FreeTrial = () => {
   return (
     <div>
         <FreeTrialSection />
-        <TrialJourneySection/>
         <TrialFAQSection/>
+        <TrialJourneySection/>
     </div>
   )
 }

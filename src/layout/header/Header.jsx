@@ -2,7 +2,6 @@ import React, { useState, useRef, useEffect } from "react";
 import { Menu, X, Globe, ChevronDown, Sparkles } from "lucide-react";
 import { Link, NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import { image } from "../../assets/image";
 
 const LANGUAGES = [
   { code: "en", labelKey: "language.en" },
@@ -45,16 +44,18 @@ const Header = () => {
           <div className="flex justify-between items-center h-16">
             {/* Logo */}
             <Link to="/" className="flex items-center gap-3 group min-w-0">
-              <span className="w-10 h-10 rounded-xl overflow-hidden ring-1 ring-white/20 bg-white/5 shadow-md flex-shrink-0">
-                <img
-                  src={image.whiteLogo}
-                  alt="Remote School System"
-                  className="h-10 w-auto max-w-none object-left transition-transform duration-300 group-hover:scale-105"
-                />
+              <span className="w-11 h-11 rounded-2xl p-1 bg-gradient-to-br from-teal-400/25 via-cyan-400/15 to-blue-500/20 ring-1 ring-teal-300/40 shadow-[0_0_18px_rgba(45,212,191,0.25)] backdrop-blur-sm flex-shrink-0">
+                <span className="block w-full h-full rounded-xl bg-slate-900/60 overflow-hidden">
+                  <img
+                    src="/srs.png"
+                    alt="Remote School System"
+                    className="h-full w-full object-contain transition-transform duration-300 group-hover:scale-110"
+                  />
+                </span>
               </span>
               <span className="leading-none hidden sm:block">
                 <span className="block text-white font-extrabold text-xl tracking-tight">Remote School</span>
-                <span className="block text-cyan-300 font-bold text-base">System</span>
+                <span className="block font-bold text-base bg-gradient-to-r from-teal-300 to-cyan-300 bg-clip-text text-transparent">System</span>
               </span>
             </Link>
 

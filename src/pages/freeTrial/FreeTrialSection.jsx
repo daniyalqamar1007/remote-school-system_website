@@ -34,45 +34,30 @@ const FreeTrialSection = () => {
   ];
 
   return (
-    <section className="bg-gradient-to-b from-gray-50 to-white py-16 sm:py-20 lg:py-24">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Badge */}
-        <div className="flex justify-center mb-6">
-          <div className="inline-flex items-center gap-2 bg-blue-100 text-blue-700 px-4 py-2 rounded-full text-xs font-semibold">
+    <section className="relative overflow-hidden bg-gradient-to-b from-[#0a1128] via-[#101b3d] to-[#0a1128] py-12 sm:py-16 lg:py-20">
+      <div className="absolute inset-0 pointer-events-none">
+        <div className="absolute top-0 -left-16 h-72 w-72 rounded-full bg-teal-500/10 blur-2xl" />
+        <div className="absolute bottom-0 -right-16 h-72 w-72 rounded-full bg-cyan-500/10 blur-2xl" />
+      </div>
+
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-10 sm:mb-12">
+          <div className="inline-flex items-center gap-2 rounded-full border border-cyan-300/40 bg-cyan-500/10 px-4 py-2 text-xs sm:text-sm font-semibold text-cyan-200 mb-4">
             <CreditCard className="w-4 h-4" />
             {t("freeTrial.noCreditCard")}
           </div>
-        </div>
-        <div className="text-center mb-12">
-          <h2 className="text-3xl sm:text-5xl font-semibold text-dark-1 mb-4">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-white mb-4 leading-tight">
             {t("freeTrial.title")}
           </h2>
-          <p className="text-xl text-dark-2 max-w-2xl mx-auto">
+          <p className="text-sm sm:text-base lg:text-lg text-slate-200 max-w-3xl mx-auto leading-relaxed">
             {t("freeTrial.subtitle")}
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-8 lg:gap-12">
-          {/* Left Side - Features */}
-          <div className="bg-white rounded-2xl p-8 shadow-sm">
-            <h3 className="text-xl font-bold text-dark-1 mb-6">
-              {t("freeTrial.whatsIncluded")}
-            </h3>
-            <ul className="space-y-4">
-              {features.map((feature, index) => (
-                <li key={index} className="flex items-start gap-3">
-                  <div className="flex-shrink-0 w-5 h-5  flex items-center justify-center mt-0.5">
-                    <Check className="w-5 h-5 text-[#00A63E]" />
-                  </div>
-                  <span className="text-sm text-dark-2">{feature}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Right Side - Form */}
-          <div className="bg-[#4760CB] rounded-2xl p-8 shadow-xl">
-            <h3 className="text-xl font-bold text-white mb-6">
+        <div className="grid lg:grid-cols-12 gap-6 lg:gap-8 items-start">
+          {/* Left Side - Form */}
+          <div className="lg:col-span-5 rounded-2xl border border-white/10 bg-gradient-to-br from-[#3049b6] to-[#1f3188] p-6 sm:p-8 shadow-lg">
+            <h3 className="text-xl sm:text-2xl font-bold text-white mb-6">
               {t("freeTrial.startTrialForm")}
             </h3>
             <form onSubmit={handleSubmit} className="space-y-4">
@@ -86,7 +71,7 @@ const FreeTrialSection = () => {
                   placeholder={t("freeTrial.placeholderSchool")}
                   value={formData.schoolName}
                   onChange={handleChange}
-                  className="w-full px-4 py-3 rounded-lg bg-white bg-opacity-20 border border-white border-opacity-30 text-white placeholder-white placeholder-opacity-60 focus:outline-none focus:border-opacity-50 transition-all"
+                  className="w-full px-4 py-3 rounded-lg bg-white/15 border border-white/30 text-white placeholder-white/60 focus:outline-none focus:border-cyan-300 transition-colors"
                   required
                 />
               </div>
@@ -101,7 +86,7 @@ const FreeTrialSection = () => {
                   placeholder={t("freeTrial.placeholderFullName")}
                   value={formData.fullName}
                   onChange={handleChange}
-                  className="w-full px-4 py-3 rounded-lg bg-white bg-opacity-20 border border-white border-opacity-30 text-white placeholder-white placeholder-opacity-60 focus:outline-none focus:border-opacity-50 transition-all"
+                  className="w-full px-4 py-3 rounded-lg bg-white/15 border border-white/30 text-white placeholder-white/60 focus:outline-none focus:border-cyan-300 transition-colors"
                   required
                 />
               </div>
@@ -116,7 +101,7 @@ const FreeTrialSection = () => {
                   placeholder={t("freeTrial.placeholderEmail")}
                   value={formData.email}
                   onChange={handleChange}
-                  className="w-full px-4 py-3 rounded-lg bg-white bg-opacity-20 border border-white border-opacity-30 text-white placeholder-white placeholder-opacity-60 focus:outline-none focus:border-opacity-50 transition-all"
+                  className="w-full px-4 py-3 rounded-lg bg-white/15 border border-white/30 text-white placeholder-white/60 focus:outline-none focus:border-cyan-300 transition-colors"
                   required
                 />
               </div>
@@ -131,7 +116,7 @@ const FreeTrialSection = () => {
                   placeholder={t("freeTrial.placeholderPhone")}
                   value={formData.phone}
                   onChange={handleChange}
-                  className="w-full px-4 py-3 rounded-lg bg-white bg-opacity-20 border border-white border-opacity-30 text-white placeholder-white placeholder-opacity-60 focus:outline-none focus:border-opacity-50 transition-all"
+                  className="w-full px-4 py-3 rounded-lg bg-white/15 border border-white/30 text-white placeholder-white/60 focus:outline-none focus:border-cyan-300 transition-colors"
                   required
                 />
               </div>
@@ -146,21 +131,55 @@ const FreeTrialSection = () => {
                   placeholder={t("freeTrial.placeholderStudents")}
                   value={formData.students}
                   onChange={handleChange}
-                  className="w-full px-4 py-3 rounded-lg bg-white bg-opacity-20 border border-white border-opacity-30 text-white placeholder-white placeholder-opacity-60 focus:outline-none focus:border-opacity-50 transition-all"
+                  className="w-full px-4 py-3 rounded-lg bg-white/15 border border-white/30 text-white placeholder-white/60 focus:outline-none focus:border-cyan-300 transition-colors"
                   required
                 />
               </div>
 
               <button
                 type="submit"
-                className="w-full bg-white text-blue-600 py-4 rounded-lg font-bold text-base hover:bg-gray-100 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
+                className="w-full bg-white text-blue-700 py-3.5 rounded-lg font-bold text-sm sm:text-base hover:bg-slate-100 transition-colors shadow-md"
               >
                 {t("freeTrial.startFreeTrialBtn")}
               </button>
-              <p className="text-xs text-white text-opacity-80 text-center mt-4">
+              <p className="text-xs text-white/80 text-center mt-4 leading-relaxed">
                 {t("freeTrial.agreeTerms")}
               </p>
             </form>
+          </div>
+
+          {/* Right Side - Features */}
+          <div className="lg:col-span-7 space-y-4">
+            <div className="rounded-2xl border border-white/10 bg-white/5 p-6 sm:p-8">
+              <h3 className="text-xl sm:text-2xl font-bold text-white mb-5">
+                {t("freeTrial.whatsIncluded")}
+              </h3>
+              <ul className="grid sm:grid-cols-2 gap-3 sm:gap-4">
+                {features.map((feature, index) => (
+                  <li key={index} className="group flex items-start gap-3 rounded-xl border border-white/10 bg-slate-900/35 p-3 hover:border-cyan-300/30 transition-colors">
+                    <div className="mt-0.5 flex-shrink-0">
+                      <Check className="w-5 h-5 text-emerald-400" />
+                    </div>
+                    <span className="text-sm text-slate-200 leading-relaxed">{feature}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            <div className="grid sm:grid-cols-3 gap-3">
+              <div className="rounded-xl border border-teal-300/25 bg-teal-500/10 p-4 text-center">
+                <div className="text-2xl font-black text-white">30</div>
+                <div className="text-xs sm:text-sm text-teal-100">Days Trial</div>
+              </div>
+              <div className="rounded-xl border border-cyan-300/25 bg-cyan-500/10 p-4 text-center">
+                <div className="text-2xl font-black text-white">100+</div>
+                <div className="text-xs sm:text-sm text-cyan-100">Student Records</div>
+              </div>
+              <div className="rounded-xl border border-blue-300/25 bg-blue-500/10 p-4 text-center">
+                <div className="text-2xl font-black text-white">0</div>
+                <div className="text-xs sm:text-sm text-blue-100">Credit Card</div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
