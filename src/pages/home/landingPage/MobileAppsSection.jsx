@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import { Smartphone, ArrowRight, Download, Zap } from "lucide-react";
+import { Smartphone } from "lucide-react";
 import { image } from "../../../assets/image";
 
 const MobileAppsSection = () => {
@@ -72,16 +72,6 @@ const MobileAppsSection = () => {
                   </div>
                 </div>
 
-                {/* CTA */}
-                <div className="pt-6 flex flex-col sm:flex-row gap-4">
-                  <div className="inline-flex items-center gap-3 bg-gradient-to-r from-teal-500/30 to-cyan-500/30 border-2 border-teal-400/60 text-white px-6 py-4 rounded-xl font-bold text-lg hover:from-teal-500/50 hover:to-cyan-500/50 hover:border-teal-300/80 transition-all duration-300 cursor-pointer transform hover:scale-105 drop-shadow-lg">
-                    <Zap className="w-5 h-5" />
-                    <span>{t("mobileApps.comingSoon")}</span>
-                  </div>
-                  <button className="px-8 py-4 rounded-xl font-bold text-white border-2 border-white/40 hover:border-white/70 hover:bg-white/10 transition-all duration-300 transform hover:scale-105 drop-shadow-lg">
-                    Get Notified
-                  </button>
-                </div>
               </div>
             </div>
           </div>

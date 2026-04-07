@@ -2,10 +2,8 @@
   "nav": {
     "home": "Home",
     "aboutUs": "About Us",
-    "career": "Career",
     "demo": "Demo",
     "freeTrial": "Free Trial",
-    "faq": "FAQ",
     "contact": "Contact",
     "login": "Login",
     "requestDemo": "Request Demo",
@@ -78,7 +76,6 @@
     "title": "Mobile Apps for",
     "titleLine2": "iOS & Android",
     "subtitle": "Stay connected on the go with our native mobile apps. Real-time notifications, grades, attendance, and secure messaging.",
-    "comingSoon": "Coming Soon",
     "downloadOn": "Download on the",
     "appStore": "App Store",
     "getItOn": "GET IT ON",
@@ -137,33 +134,6 @@
     "trustedBySchools": "Trusted by Schools",
     "trustedDesc": "Schools use RMS for attendance, grades, health records, nurse visits, behavior tracking, parent-teacher communication, and reporting—all in one secure platform.",
     "getInTouch": "Get in Touch"
-  },
-  "career": {
-    "title": "Careers at RMS",
-    "intro": "Join us in building the platform that helps K–12 schools manage students, health, and communication—so educators can focus on what matters most.",
-    "whyJoin": "Why Join Us",
-    "meaningfulWork": "Meaningful Work",
-    "meaningfulWorkDesc": "Build products that help schools and students every day.",
-    "collaborativeTeam": "Collaborative Team",
-    "collaborativeTeamDesc": "Work with educators and technologists who care about impact.",
-    "flexibleRemote": "Flexible & Remote-Friendly",
-    "flexibleRemoteDesc": "Balance location and schedule so you can do your best work.",
-    "growthLearning": "Growth & Learning",
-    "growthLearningDesc": "Learn new skills and take on ownership as we scale.",
-    "openPositions": "Open Positions",
-    "remote": "Remote",
-    "fullTime": "Full-time",
-    "remoteHybrid": "Remote / Hybrid",
-    "role1Title": "Senior Full-Stack Engineer",
-    "role1Summary": "Help design and build features for schools: attendance, grades, health, and communication.",
-    "role2Title": "Product Designer",
-    "role2Summary": "Own UX for admin, teacher, nurse, and parent portals. Make complex workflows simple.",
-    "role3Title": "Customer Success Manager",
-    "role3Summary": "Onboard schools, train users, and ensure they get value from RMS.",
-    "applyNow": "Apply now",
-    "dontSeeFit": "Don't See a Fit? We'd Still Like to Hear From You",
-    "dontSeeFitDesc": "We're always looking for talented people who care about education. Send your resume and a short note about what you're interested in.",
-    "contactUs": "Contact Us"
   },
   "contact": {
     "title": "Contact Us",
@@ -233,69 +203,6 @@
     "liveDemoSubtitle": "Schedule a personalized demo with our team to see how Remote Mangement System can transform your school's operations",
     "scheduleLiveDemo": "Schedule Live Demo"
   },
-  "faqPage": {
-    "title": "Frequently Asked Questions",
-    "subtitle": "Find answers to common questions about Remote Mangement System",
-    "searchPlaceholder": "Search questions...",
-    "noResults": "No questions found matching your search.",
-    "stillHaveQuestions": "Still have questions?",
-    "supportHere": "Our support team is here to help",
-    "contactSupport": "Contact Support",
-    "userRolesAccess": "User Roles & Access",
-    "parentStudentFeatures": "Parent & Student Features",
-    "reportsAnalytics": "Reports & Analytics",
-    "securityCompliance": "Security & Compliance",
-    "trialBilling": "Trial & Billing",
-    "integrationsApi": "Integrations & API",
-    "roles": {
-      "q1": "What user roles are available in the system?",
-      "a1": "Our system supports multiple roles including Super Admin, School Admin, Teacher, Student, Parent, Nurse, and Counselor. Each role has specific permissions tailored to their responsibilities.",
-      "q2": "Can one user have multiple roles?",
-      "a2": "Yes, users can be assigned multiple roles. For example, a teacher can also be a parent within the system, accessing both portals with a single login.",
-      "q3": "How do I reset my password?",
-      "a3": "Click on \"Forgot Password\" on the login page. Enter your email address and you'll receive a password reset link. Follow the instructions in the email to create a new password."
-    },
-    "parent": {
-      "q1": "What can parents access in the portal?",
-      "a1": "Parents can view their child's grades, attendance records, upcoming assignments, teacher messages, health records, and schedule. They can also communicate with teachers and receive real-time notifications.",
-      "q2": "How do students access their grades?",
-      "a2": "Students log into their portal using their credentials. The dashboard displays current grades, GPA, assignments, and detailed breakdowns for each class.",
-      "q3": "Can parents communicate with teachers?",
-      "a3": "Yes, parents can send secure messages directly to teachers through the portal. They can also schedule parent-teacher conferences and receive notifications about their child's progress."
-    },
-    "reports": {
-      "q1": "What types of reports are available?",
-      "a1": "We offer attendance reports, grade reports, behavior reports, health records, dropout risk analysis, honor roll reports, and custom reports that can be scheduled or generated on-demand.",
-      "q2": "Can reports be exported?",
-      "a2": "Yes, all reports can be exported in multiple formats including PDF, Excel, and CSV. You can also schedule automatic report generation and delivery via email.",
-      "q3": "How does predictive analytics work?",
-      "a3": "Our AI-powered analytics analyze historical data to identify at-risk students, predict academic performance trends, and provide early warning indicators for dropout risk."
-    },
-    "security": {
-      "q1": "Is the system FERPA compliant?",
-      "a1": "Yes, our system is fully FERPA compliant. We implement strict access controls, audit trails, and data protection measures to ensure student information privacy.",
-      "q2": "How is medical data protected?",
-      "a2": "Medical data is encrypted at rest and in transit, with HIPAA-compliant storage. Access is restricted to authorized personnel only (nurses, designated administrators) with full audit logging.",
-      "q3": "What security measures are in place?",
-      "a3": "We use 256-bit encryption, multi-factor authentication, role-based access control, regular security audits, SOC 2 Type II certification, and automatic security updates."
-    },
-    "trial": {
-      "q1": "What's included in the free trial?",
-      "a1": "The 30-day free trial includes full access to all features, up to 100 student records, all portals (Parent, Student, Teacher, Admin), and email/chat support. No credit card required.",
-      "q2": "How does pricing work?",
-      "a2": "Pricing is based on the number of students in your district. We offer flexible annual and multi-year plans with volume discounts. Contact our sales team for a custom quote.",
-      "q3": "Can I cancel anytime?",
-      "a3": "During the trial, you can cancel anytime with no obligations. For paid subscriptions, you can cancel with 30 days notice. We also offer a 60-day money-back guarantee."
-    },
-    "integrations": {
-      "q1": "Does the system integrate with other tools?",
-      "a1": "Yes, we integrate with popular tools including Google Classroom, Microsoft Teams, Canvas, PowerSchool, and various state reporting systems. We also offer a RESTful API for custom integrations.",
-      "q2": "Can we import existing student data?",
-      "a2": "Absolutely! We support CSV, Excel, and direct database imports. Our team provides data migration assistance to ensure a smooth transition from your current system.",
-      "q3": "Is there a mobile app?",
-      "a3": "Yes, we offer native mobile apps for both iOS and Android. Parents, students, and teachers can access most features on-the-go with real-time notifications."
-    }
-  },
   "freeTrial": {
     "noCreditCard": "No Credit Card Required",
     "title": "Start Your 1-Month Free Trial",
@@ -352,12 +259,10 @@
     "company": "Company",
     "help": "Help",
     "aboutUs": "About Us",
-    "careers": "Careers",
     "team": "Team",
     "pressKit": "Press Kit",
     "pricing": "Pricing",
     "documentation": "Documentation",
-    "faqs": "FAQs",
     "customerSupport": "Customer Support",
     "termsConditions": "Terms & Conditions",
     "privacyPolicy": "Privacy Policy",
@@ -368,7 +273,6 @@
     "copyright": "© Copyright 2025, All Rights Reserved by Remote Mangement System"
   },
   "language": {
-    "en": "English",
-    "es": "Español"
+    "en": "English"
   }
 }

@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import { ArrowRight, Sparkles, Play } from "lucide-react";
+import { Sparkles } from "lucide-react";
 
 const HeroSection = () => {
   const { t } = useTranslation();
@@ -34,22 +34,6 @@ const HeroSection = () => {
             <p className="text-lg sm:text-xl lg:text-2xl text-white/90 max-w-lg leading-relaxed font-medium drop-shadow-md">
               {t("hero.subtitle")}
             </p>
-
-            {/* CTA Buttons - Super Interactive */}
-            <div className="flex flex-col sm:flex-row gap-4 pt-7">
-              <button className="group relative px-8 sm:px-10 py-4 sm:py-5 rounded-xl font-bold text-white bg-gradient-to-r from-teal-400 via-cyan-400 to-blue-400 hover:from-teal-300 hover:via-cyan-300 hover:to-blue-300 transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 shadow-lg hover:shadow-teal-500/50 flex items-center justify-center gap-2 text-base sm:text-lg overflow-hidden">
-                <span className="absolute inset-0 bg-white/20 opacity-0 group-hover:opacity-100 transition-opacity rounded-xl" />
-                <span className="relative flex items-center gap-2">
-                  {t("hero.requestDemo")}
-                  <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-                </span>
-              </button>
-              <button className="relative px-8 sm:px-10 py-4 sm:py-5 rounded-xl font-bold text-teal-300 border-2 border-teal-400 bg-white/5 hover:bg-teal-400/20 transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 shadow-lg hover:shadow-teal-400/50 text-base sm:text-lg group hover:border-teal-300 hover:text-teal-200">
-                <span className="relative flex items-center gap-2">
-                  {t("hero.startTrial")}
-                </span>
-              </button>
-            </div>
 
             {/* Trust indicators - Visible */}
             <div className="pt-6 flex flex-wrap items-center gap-6 text-sm">

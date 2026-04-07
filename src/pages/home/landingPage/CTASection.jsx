@@ -1,6 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import { ArrowRight, Calendar, Users, Zap, CheckCircle } from "lucide-react";
+import { Calendar, Users, Zap, CheckCircle } from "lucide-react";
 
 const CTASection = () => {
   const { t } = useTranslation();
@@ -50,28 +50,6 @@ const CTASection = () => {
               <div className="text-lg font-black text-white drop-shadow-md">Always On</div>
             </div>
           </div>
-        </div>
-
-        {/* CTA Buttons */}
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 flex-wrap mb-10">
-          {/* Primary CTA */}
-          <button className="group relative px-8 sm:px-10 py-3 sm:py-4 rounded-xl font-bold text-sm sm:text-base text-white bg-gradient-to-r from-teal-500 via-cyan-500 to-blue-500 hover:from-teal-400 hover:via-cyan-400 hover:to-blue-400 transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 shadow-lg hover:shadow-teal-500/50 flex items-center justify-center gap-2 w-full sm:w-auto drop-shadow-lg overflow-hidden border-2 border-white/20">
-            <span className="absolute inset-0 bg-white/10 opacity-0 group-hover:opacity-100 transition-opacity rounded-xl" />
-            <span className="relative flex items-center gap-2">
-              {t("cta.requestDemo")}
-              <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-            </span>
-          </button>
-
-          {/* Secondary CTA */}
-          <button className="px-8 sm:px-10 py-3 sm:py-4 rounded-xl font-bold text-sm sm:text-base text-white border-2 border-teal-400/80 hover:border-teal-300 hover:bg-teal-500/20 transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 w-full sm:w-auto drop-shadow-lg">
-            {t("cta.startFreeTrial")}
-          </button>
-
-          {/* Tertiary CTA */}
-          <button className="px-8 sm:px-10 py-3 sm:py-4 rounded-xl font-bold text-sm sm:text-base text-white border-2 border-white/40 hover:border-white/70 hover:bg-white/10 transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 w-full sm:w-auto drop-shadow-lg">
-            {t("cta.contactSales")}
-          </button>
         </div>
 
         {/* Divider */}

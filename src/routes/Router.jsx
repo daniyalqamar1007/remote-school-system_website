@@ -25,24 +25,12 @@ export const router = createBrowserRouter([
         element:<LazyComponent path="/demo"/>,
       },
        {
-        path:"/free-trial",
-        element:<LazyComponent path="/free-trial"/>,
-      },
-       {
-        path:"/faqs",
-        element:<LazyComponent path="/faqs"/>,
-      },
-       {
         path:"/contact",
         element:<LazyComponent path="/contact"/>,
       },
       {
         path: "/about-us",
         element: <LazyComponent path="/about-us" />,
-      },
-      {
-        path: "/career",
-        element: <LazyComponent path="/career" />,
       },
       {
         path: "/roles",

@@ -10,11 +10,8 @@ const componentMap = {
   // home
   "/": lazy(() => import("../pages/home/Home")),
   "/demo":lazy(()=>import("../pages/demoScreen/Demo")),
-  "/free-trial":lazy(()=>import("../pages/freeTrial/FreeTrial")),
-  "/faqs":lazy(()=>import("../pages/faqs/FaqsScreen")),
   "/contact":lazy(()=>import("../pages/contact/Contact")),
   "/about-us": lazy(() => import("../pages/about/AboutUs")),
-  "/career": lazy(() => import("../pages/career/Career")),
   "/roles": lazy(() => import("../pages/roles/Roles")),
 };
 

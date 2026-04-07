@@ -9,13 +9,11 @@ const Footer = () => {
       titleKey: "footer.company",
       links: [
         { labelKey: "footer.aboutUs", to: "/about-us" },
-        { labelKey: "footer.careers", to: "/career" },
       ],
     },
     {
       titleKey: "footer.help",
       links: [
-        { labelKey: "footer.faqs", to: "/faqs" },
         { labelKey: "footer.customerSupport", to: "/support" },
         { labelKey: "footer.termsConditions", to: "/terms" },
         { labelKey: "footer.privacyPolicy", to: "/privacy" },

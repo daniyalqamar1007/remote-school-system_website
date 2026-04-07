@@ -2,9 +2,16 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import { Users, BookOpen, GraduationCap, Heart, Shield, DollarSign, School, Crown, ArrowRight } from "lucide-react";
 
+const PORTAL_LINK = "http://localhost:3000";
+
 const PortalCard = ({ icon: Icon, title, bgGradient, textColor, index }) => {
   return (
-    <div className="group relative h-full cursor-pointer">
+    <a
+      href={PORTAL_LINK}
+      target="_blank"
+      rel="noreferrer"
+      className="group relative h-full cursor-pointer block"
+    >
       {/* Animated glow effect */}
       <div className={`absolute -inset-0.5 ${bgGradient} opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg blur-lg`} />
       
@@ -21,7 +28,7 @@ const PortalCard = ({ icon: Icon, title, bgGradient, textColor, index }) => {
           </div>
         </div>
       </div>
-    </div>
+    </a>
   );
 };
 
@@ -88,13 +95,6 @@ const PortalsSection = () => {
           </div>
         </div>
 
-        {/* Footer CTA */}
-        <div className="text-center mt-14">
-          <button className="inline-flex items-center gap-2 px-10 py-4 rounded-xl font-bold text-white bg-gradient-to-r from-teal-400 via-cyan-400 to-blue-400 hover:from-teal-300 hover:via-cyan-300 hover:to-blue-300 transition-all duration-300 transform hover:scale-110 hover:-translate-y-2 text-lg shadow-2xl hover:shadow-teal-500/50 drop-shadow-lg">
-            Explore All Features
-            <ArrowRight className="w-5 h-5" />
-          </button>
-        </div>
       </div>
     </section>
   );
